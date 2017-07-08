@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.wrap {
+	margin: 0 auto;
+	width: 100%;
+}
+.main {
+	background-color: #ff9800;
+	min-height: 50px;
+	padding: 3%;
+}
+.header {
+	font-size: 215%;
+}
+p {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.london, .paris, .tokyo {
+	width: 31.33%;
+	min-height: 50px;
+	margin: 1%;
+	float: left;
+}
+.name {
+	font-size: 150%;
+}
+img {
+	width: 97%;
+	margin: 1% 1% 8% 1%;
+}
+footer {
+	text-align: right;
+	font-size: 50%;
+	background-color: #ff9800;
+}
+a {
+text-decoration: none;	
+}
+.clear {
+	clear: both;
+}
+@media screen and (max-width: 960px) {
+	.london, .tokyo, .paris {
+		width: 60%;
+		margin: 3%;
+	}
+	img {
+		width: 47%;
+		float: left;
+	}
+}
