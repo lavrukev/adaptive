@@ -4,21 +4,23 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-.wrap {
+body {
 	margin: 0 auto;
 	width: 100%;
 }
-.main {
+main {
 	background-color: #ff9800;
 	min-height: 50px;
 	padding: 3%;
 }
-.header {
+.article {
 	font-size: 215%;
 }
 p {
 	margin-top: 5%;
 	margin-bottom: 5%;
+	margin-left: 10px;
+	
 }
 .london, .paris, .tokyo {
 	width: 31.33%;
@@ -28,29 +30,28 @@ p {
 }
 .name {
 	font-size: 150%;
+	margin-left: 10px;
 }
 img {
 	width: 97%;
 	margin: 1% 1% 8% 1%;
-}
-footer {
-	text-align: right;
-	font-size: 50%;
-	background-color: #ff9800;
-}
-a {
-text-decoration: none;	
 }
 .clear {
 	clear: both;
 }
 @media screen and (max-width: 960px) {
 	.london, .tokyo, .paris {
-		width: 60%;
+		width: 100%;
 		margin: 3%;
 	}
 	img {
-		width: 47%;
+		width: 48%;
 		float: left;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.london, .tokyo, .paris {
+		width: 100%;
 	}
 }
